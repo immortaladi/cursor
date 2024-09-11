@@ -1,0 +1,18 @@
+/* Reset margins and remove overflow */
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; /* Black background for contrast */
+}
+
+/* Styling for each cursor trail element */
+.cursor-tail {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.8); /* Default color */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8); /* Glowing shadow */
+    pointer-events: none; /* Ensure cursor is not clickable */
+    z-index: 9999; /* Place above all other elements */
+}
